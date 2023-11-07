@@ -1,3 +1,4 @@
+import sideBar from "../sidebar";
 import { motion } from "framer-motion";
 
 const variants = {

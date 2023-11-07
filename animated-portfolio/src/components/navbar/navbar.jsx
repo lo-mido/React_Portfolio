@@ -14,9 +14,10 @@ const Navbar = () => {
              transition={{duration:0.5}}
              >
              Lourdes Dorvilus</motion.span>
-            <div className="social"></div>
-            <a href="#"><img src="/linkedin.png" alt="Logo of Linkedin" /></a>
-            <a href="#"><img src="/GitHub-logo.png" alt="Logo of Git Hub" /></a>
+            <div className="social">
+            <a href="#"><i className="fa-brands fa-linkedin fa-beat"></i></a>
+            <a href="#"><i className="fa-brands fa-github-alt fa-beat"></i></a>
+            </div>
         </div>
         </div>
         

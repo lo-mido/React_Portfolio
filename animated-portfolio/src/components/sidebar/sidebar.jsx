@@ -24,17 +24,22 @@ const [open,setOpen]=useState(false)
             }
         }
     }
-    const sidebar=()=>{
-        const [open,setOpen]=useState(false);
-    }
-    return 
-        <motion.div className="Sidebar" animate={open ? "open": "closed"} > 
+    // const sidebar=()=>{
+    //     const [open,setOpen]=useState(false);
+    // }
+    return (
+        <motion.div className="sidebar" animate={open ? "open": "closed"} > 
+        {open ?
         <motion.div className="bg" variants={{variants}}>
             <Links/>
         </motion.div>
+        :
+        ""
+    }
+        
         <ToggleButton setOpen={setOpen}/>
-        </motion.div>;
-    
+        </motion.div>
+ )   
 };
 
 export default Sidebar 
