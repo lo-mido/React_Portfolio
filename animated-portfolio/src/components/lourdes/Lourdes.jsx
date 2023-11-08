@@ -75,10 +75,10 @@ const LOURDES = () => {
         Tech Enthuasist
       </motion.div>
       <div className="imageContainer">
-        <img src="./lourdes.png" alt="image of lourdes" />
+        <img src="./lourdes2.png" alt="image of lourdes" />
       </div>
     </div>
   );
 };
 
-export default Lourdes;
+export default LOURDES;

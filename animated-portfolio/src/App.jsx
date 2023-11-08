@@ -8,13 +8,11 @@ const App = () => {
     <>
   <div>
 
-<section id="Homepage"> <Navbar/></section>
+<section id="Homepage"> <Navbar/><Lourdes/></section>
 <section className="lourdes">
   <div>
-fdv
   </div>
   <div>
-  <Lourdes/>
   </div>
 </section>
 <section id="Services"> Parallax</section>
