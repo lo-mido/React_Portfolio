@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_ffvrjne",
+        "template_a77exd3",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "15zk02nZC3_WjAZom"
       )
       .then(
         (result) => {
@@ -83,7 +83,7 @@ const Contact = () => {
               initial={{ pathLength: 0 }}
               animate={isInView && { pathLength: 1 }}
               transition={{ duration: 3 }}
-              // 86-98 copy code for phone icon 
+              // 86-98 copy code for phone icon
               
             />
             <FontAwesomeIcon icon={light("phone-volume")} size="2xl" style={{color: "#ffe224",}} />
