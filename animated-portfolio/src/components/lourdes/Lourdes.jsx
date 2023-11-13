@@ -72,7 +72,7 @@ const LOURDES = () => {
         initial="initial"
         animate="animate"
       >
-        Tech Enthuasist
+        Tech Enthusiast
       </motion.div>
       <div className="imageContainer">
         <img src="./lourdes2.png" alt="image of lourdes" />
