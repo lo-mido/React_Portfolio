@@ -2,7 +2,7 @@ import React from "react";
 import "./app.scss";
 import Navbar from "./components/navbar/navbar";
 import Lourdes from "./components/Lourdes/Lourdes";
-import Contact from "./components/contact/Contact";
+import Contact from "./components/Contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -27,8 +27,8 @@ const App = () => {
       </section>
       <Portfolio />
       <section id="Contact">
-        <Contact />
-      </section>
+        <Contact /> 
+       </section>
     </div>
   );
 };

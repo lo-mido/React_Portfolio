@@ -2,6 +2,8 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {  faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 
 const variants = {
   initial: {
@@ -32,9 +34,9 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_ffvrjne",
-        "template_a77exd3",
+        "template_z2gd4vm",
         formRef.current,
-        "15zk02nZC3_WjAZom"
+        "15zk02nZC3_WjAZom",
       )
       .then(
         (result) => {
@@ -42,6 +44,7 @@ const Contact = () => {
         },
         (error) => {
           setError(true);
+          console.log(error);
         }
       );
   };
@@ -58,11 +61,11 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <span>lourdesdorvilus@yahoo.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Hello street New York</span>
+          <span>Open to Work Remote (anywhere in U.S.) or Hybrid in South Florida</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
@@ -86,7 +89,8 @@ const Contact = () => {
               // 86-98 copy code for phone icon
               
             />
-            <FontAwesomeIcon icon={light("phone-volume")} size="2xl" style={{color: "#ffe224",}} />
+            <FontAwesomeIcon icon={faPhoneVolume} style={{color: "#51511f",}} />
+            {/* <FontAwesomeIcon icon={light("phone-volume")} size="2xl" style={{color: "#ffe224",}} />  */}
           </svg>
         </motion.div>
         <motion.form

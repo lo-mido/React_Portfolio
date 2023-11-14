@@ -1,5 +1,5 @@
 html {
-  scroll-snap-type: y mandatory;
+  // scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 section {
   height: 100vh;
-  scroll-snap-align: center;
+  // scroll-snap-align: center;
 }
 .lourdes {
   display: inline-flex;

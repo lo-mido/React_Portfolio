@@ -36,8 +36,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          I specialize in advancing and expanding your brand's presence
+          <br /> and progress
         </p>
         <hr />
       </motion.div>
@@ -50,9 +50,9 @@ const Services = () => {
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>Team</motion.b> Work.
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>WHAT I DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,12 +60,21 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Logo Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Transform your brand's identity with my logo design expertise. I specialize in crafting unique and memorable logos that 
+            encapsulate the essence of your business. 
+            
+          </p>
+          <button>Go</button>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>User Experince Design (UX)</h2>
+          <p>
+          Enhance user satisfaction with my streamlined UX design. I create visually appealing and intuitive interfaces, prioritizing seamless user experiences. Let's collaborate to elevate your digital platforms..
           </p>
           <button>Go</button>
         </motion.div>
@@ -75,10 +84,7 @@ const Services = () => {
         >
           <h2>Branding</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Shape your brand's lasting impression with my expertise. Let's collaborate to create a distinctive identity that sets you apart.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,25 +92,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Search Engine Optimization (SEO)</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Boost your online presence with my SEO expertise. I optimize your site for search engines, ensuring high rankings and increased visibility. Let's collaborate to enhance your digital impact..
           </p>
           <button>Go</button>
         </motion.div>

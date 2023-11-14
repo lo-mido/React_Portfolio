@@ -15,8 +15,8 @@ const Navbar = () => {
              className="name">
              Lourdes Dorvilus</motion.span>
             <div className="social">
-            <a href="#"><i className="fa-brands fa-linkedin fa-beat"></i></a>
-            <a href="#"><i className="fa-brands fa-github-alt fa-beat"></i></a>
+            <a href="https://www.linkedin.com/in/ldorvilus/"><i className="fa-brands fa-linkedin fa-beat"></i></a>
+            <a href="https://github.com/lo-mido/"><i className="fa-brands fa-github-alt fa-beat"></i></a>
             </div>
         </div>
         </div>
