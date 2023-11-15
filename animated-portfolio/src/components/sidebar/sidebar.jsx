@@ -27,10 +27,15 @@ const [open,setOpen]=useState(false)
     // const sidebar=()=>{
     //     const [open,setOpen]=useState(false);
     // }
+    // lines 31 and line 35 code for sidebar to open and close
+    const handleClose=()=>{
+        setOpen(false);
+    };
     return (
-        <motion.div className="sidebar" animate={open ? "open": "closed"} > 
+        <motion.div className="sidebar"
+        animate={open ? "open": "closed"} > 
         {open ?
-        <motion.div className="bg" variants={{variants}}>
+        <motion.div onClick={handleClose}className="bg" variants={{variants}}>
             <Links/>
         </motion.div>
         :

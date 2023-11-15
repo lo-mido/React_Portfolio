@@ -1,13 +1,15 @@
 @import "../../app.scss";
 
 .lourdes {
-  height: calc(100vh - 100px);
+   height: calc(100vh - 100px);
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
+  width: 100%;
+  margin-top: 20%;
 
   .wrapper {
-    max-width: 1366px;
+   max-width: 1366px;
     height: 100%;
     margin: auto;
 

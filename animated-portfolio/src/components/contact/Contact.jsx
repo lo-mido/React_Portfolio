@@ -60,16 +60,21 @@ const Contact = () => {
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
-          <span>lourdesdorvilus@yahoo.com</span>
+          <h2>Resume</h2>
+          <span><button> <a href="/images/resume.pdf">Download Resume Here </a></button></span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
           <span>Open to Work Remote (anywhere in U.S.) or Hybrid in South Florida</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Phone</h2>
-          <span>+1 234 5678</span>
+          <h2>Languages & FrameWorks</h2>
+          <span><FontAwesomeIcon icon="fa-brands fa-square-js" bounce style={{color: "#e2a703",}} /> 
+          <FontAwesomeIcon icon="fa-brands fa-html5" bounce style={{color: "#edc707",}} />
+          <FontAwesomeIcon icon="fa-brands fa-css3" bounce style={{color: "#edc707",}} />
+          <FontAwesomeIcon icon="fa-brands fa-react" bounce style={{color: "#ffc800",}} />
+          <FontAwesomeIcon icon="fa-brands fa-node-js" bounce style={{color: "#ffc800",}} />
+          </span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
