@@ -3,7 +3,10 @@ import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+ import {  faPhoneVolume} from "@fortawesome/free-solid-svg-icons";
+// import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+
+
 
 const variants = {
   initial: {
@@ -69,12 +72,16 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Languages & FrameWorks</h2>
-          <span><FontAwesomeIcon icon="fa-brands fa-square-js" bounce style={{color: "#e2a703",}} /> 
-          <FontAwesomeIcon icon="fa-brands fa-html5" bounce style={{color: "#edc707",}} />
-          <FontAwesomeIcon icon="fa-brands fa-css3" bounce style={{color: "#edc707",}} />
-          <FontAwesomeIcon icon="fa-brands fa-react" bounce style={{color: "#ffc800",}} />
-          <FontAwesomeIcon icon="fa-brands fa-node-js" bounce style={{color: "#ffc800",}} />
+          <span>
+          {/* /* <FontAwesomeIcon icon={faHtml5} bounce style={{color: "#ffbb00",}} />  */}
+            {/* <FontAwesomeIcon icon={faCss3Alt} bounce style={{color: "#ffbb00",}} />
+            <FontAwesomeIcon icon={faSquareJs} bounce style={{color: "#ffdd00",}} />
+            <FontAwesomeIcon icon={faReact} bounce style={{color: "#ffbb00",}} />
+            <FontAwesomeIcon icon={faNodeJs} bounce style={{color: "#ffbb00",}} />
+             </p> */}
+       {/* <p> <FontAwesomeIcon icon={faSquareJs} style={{color: "#ffb30f",}} /></p>  */}
           </span>
+          
         </motion.div>
       </motion.div>
       <div className="formContainer">
