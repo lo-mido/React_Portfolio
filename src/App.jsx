@@ -1,7 +1,7 @@
 import React from "react";
 import "./app.scss";
 import Navbar from "./components/navbar/navbar";
-import Lourdes from "./components/Lourdes/Lourdes";
+import Lourdes from "./components/lourdes/Lourdes";
 import Contact from "./components/Contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Parallax from "./components/parallax/Parallax";
