@@ -1,1 +1,4 @@
-# React_Portfolio
+# React + Vite
+
+My React Portfolio using framer motion and sass css.
+
