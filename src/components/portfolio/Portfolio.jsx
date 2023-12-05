@@ -7,29 +7,29 @@ const items = [
     id: 1,
     title: "MoveMate",
     img: "/images/movemate.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link: "https://github.com/lo-mido/"
+    desc: "MoveMate is a web application I developed with the vision of simplifying the process of moving heavy appliances. Much like the convenience of ride-sharing services, MoveMate connects users with reliable and skilled movers who specialize in handling and transporting bulky items. With an easy-to-use platform, users can request assistance for moving heavy appliances, ensuring a seamless and efficient experience. MoveMate strives to make heavy appliance transportation as effortless as possible, providing a reliable solution for those in need of professional moving assistance.",
+    link: "https://movemate-rt-f78ed739ac18.herokuapp.com/"
   },
   {
     id: 2,
     title: "Note Taker",
     img: "/images/notesap.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link:"https://github.com/lo-mido/",
+    desc: "The NoteTaker app is a user-friendly and intuitive tool designed to streamline your note-taking experience. With a clean and minimalistic interface, it allows users to capture and organize their thoughts effortlessly. From quick ideas to detailed project notes, NoteTaker enables efficient note creation, editing, and categorization. Sync your notes seamlessly across devices and never miss a detail with this versatile and reliable note-taking companion.",
+    link:"https://note-taker684-7cc43ea2c44c.herokuapp.com/",
   },
   {
     id: 3,
     title: "Coding Quiz",
     img: "/images/codingquiz.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link:"https://github.com/lo-mido/",
+    desc: "The JavaScript Coding Quiz Application is an interactive platform tailored for both novice and experienced developers to enhance their coding skills. With a sleek and user-friendly design, the app challenges users with a series of JavaScript-related questions, testing their knowledge in a gamified format. Featuring a timer, scoring system, and dynamic feedback, the application provides an engaging environment for users to assess and improve their JavaScript proficiency. Dive into the world of coding challenges and elevate your JavaScript expertise with this educational and enjoyable quiz experience.",
+    link:"https://lo-mido.github.io/CodeQuizChallenge/",
   },
   {
     id: 4,
     title: "Weather App",
     img: "/images/weather.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link:"https://github.com/lo-mido/",
+    desc: "The WeatherApp is a JavaScript-powered application that brings real-time weather information and a 5-day forecast to your fingertips. With a clean and intuitive interface, users can effortlessly check the current weather conditions and receive accurate forecasts for the next five days. The app dynamically fetches data from a weather API, providing up-to-date and location-based insights. Whether planning for the week or staying informed about the current weather, the WeatherApp offers a seamless and visually appealing experience for users to stay ahead of the forecast.",
+    link:"https://lo-mido.github.io/weather-dashboard-api-challange/",
   },
 ];
 

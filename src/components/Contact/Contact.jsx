@@ -3,10 +3,8 @@ import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
- import {  faPhoneVolume} from "@fortawesome/free-solid-svg-icons";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 // import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
-
-
 
 const variants = {
   initial: {
@@ -39,11 +37,11 @@ const Contact = () => {
         "service_ffvrjne",
         "template_z2gd4vm",
         formRef.current,
-        "15zk02nZC3_WjAZom",
+        "15zk02nZC3_WjAZom"
       )
       .then(
         (result) => {
-          setSuccess(true)
+          setSuccess(true);
         },
         (error) => {
           setError(true);
@@ -64,24 +62,42 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Resume</h2>
-          <span><button> <a href="/images/resume.pdf">Download Resume Here </a></button></span>
+          <span>
+            <button>
+              {" "}
+              <a href="/React_Portfolio/public/resume.ld.pdf">
+                Download Resume Here{" "}
+              </a>
+            </button>
+          </span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Open to Work Remote (anywhere in U.S.) or Hybrid in South Florida</span>
+          <span>
+            Open to Work Remote (anywhere in U.S.) or Hybrid in South Florida
+          </span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Languages & FrameWorks</h2>
+          <h2>Learning Journey:</h2>
+          <p>
+            {" "}
+            <ul>
+              {" "}
+              Completed online courses in Full Stack Web Development. Actively
+              engaged in personal projects to build and enhance coding skills.
+              Attend web development meetups and conferences to stay updated on
+              industry trends.
+            </ul>
+          </p>
           <span>
-          {/* /* <FontAwesomeIcon icon={faHtml5} bounce style={{color: "#ffbb00",}} />  */}
+            {/* /* <FontAwesomeIcon icon={faHtml5} bounce style={{color: "#ffbb00",}} />  */}
             {/* <FontAwesomeIcon icon={faCss3Alt} bounce style={{color: "#ffbb00",}} />
             <FontAwesomeIcon icon={faSquareJs} bounce style={{color: "#ffdd00",}} />
             <FontAwesomeIcon icon={faReact} bounce style={{color: "#ffbb00",}} />
             <FontAwesomeIcon icon={faNodeJs} bounce style={{color: "#ffbb00",}} />
              </p> */}
-       {/* <p> <FontAwesomeIcon icon={faSquareJs} style={{color: "#ffb30f",}} /></p>  */}
+            {/* <p> <FontAwesomeIcon icon={faSquareJs} style={{color: "#ffb30f",}} /></p>  */}
           </span>
-          
         </motion.div>
       </motion.div>
       <div className="formContainer">
@@ -99,9 +115,11 @@ const Contact = () => {
               animate={isInView && { pathLength: 1 }}
               transition={{ duration: 3 }}
               // 86-98 copy code for phone icon
-              
             />
-            <FontAwesomeIcon icon={faPhoneVolume} style={{color: "#51511f",}} />
+            <FontAwesomeIcon
+              icon={faPhoneVolume}
+              style={{ color: "#51511f" }}
+            />
             {/* <FontAwesomeIcon icon={light("phone-volume")} size="2xl" style={{color: "#ffe224",}} />  */}
           </svg>
         </motion.div>
@@ -112,9 +130,9 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
+          <input type="text" required placeholder="Name" name="name" />
+          <input type="email" required placeholder="Email" name="email" />
+          <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
