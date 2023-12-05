@@ -81,13 +81,9 @@ const Contact = () => {
           <h2>Learning Journey:</h2>
           <p>
             {" "}
-            <ul>
+            Currently Learning to build and Deploy iOS and Android Applications using Swift UI and React Native, respectively.
               {" "}
-              Completed online courses in Full Stack Web Development. Actively
-              engaged in personal projects to build and enhance coding skills.
-              Attend web development meetups and conferences to stay updated on
-              industry trends.
-            </ul>
+             
           </p>
           <span>
             {/* /* <FontAwesomeIcon icon={faHtml5} bounce style={{color: "#ffbb00",}} />  */}
